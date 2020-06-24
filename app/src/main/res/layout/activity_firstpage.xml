@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Hire Developers"
+        android:textSize="30dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/colorPrimary"/>
+
+
+    <ImageView
+        android:id="@+id/hiredev"
+        android:layout_width="wrap_content"
+        android:layout_height="516dp"
+        android:src="@drawable/hiredeveloper" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/des"
+        android:text="Are you familiar with Programming?"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btnyes"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="180dp"
+        android:text="Yes" />
+    <Button
+        android:id="@+id/btnno"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="280dp" android:layout_marginTop="-39dp"
+        android:text="No" />
+</LinearLayout>
